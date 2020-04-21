@@ -20,20 +20,303 @@
 
         <hr>
 
-        <button id="botao-nova-encomenda" class="botao">Nova Encomenda</button>
-        <button id="botao-nova-encomenda-PDF" class="botao">Nova Encomenda PDF</button>
-        <button id="botao-apagar" class="botao">Apagar Enc./Artigo</button>
-        <button id="botao-expedir" class="botao">Expedir Enc./Artigo</button>
-        <button id="botao-etiquetas" class="botao">Gerar Etiquetas</button>
-        <button id="botao-listagem" class="botao">Gerar Listagem</button>
+        <button id="botao-nova-encomenda" class="botao" onclick="nada()">Nova Encomenda</button>
+        <button id="botao-nova-encomenda-PDF" class="botao" onclick="nada()">Nova Encomenda PDF</button>
+        <button id="botao-apagar" class="botao" onclick="nada()">Apagar Enc./Artigo</button>
+        <button id="botao-expedir" class="botao" onclick="nada()">Expedir Enc./Artigo</button>
+        <button id="botao-etiquetas" class="botao" onclick="nada()">Gerar Etiquetas</button>
+        <button id="botao-listagem" class="botao" onclick="nada()">Gerar Listagem</button>
 
         <hr>
     </nav>
 
-    <div id="main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur corporis dolorum ea eos harum in iusto optio perspiciatis quo reprehenderit, soluta. Ab culpa enim esse, eveniet fuga harum ipsa iusto modi natus nesciunt officiis quos temporibus vitae. Cum enim explicabo illo illum, incidunt modi nostrum omnis quod quos soluta tempore veritatis. Alias amet assumenda cum dolor enim eos, fugit itaque labore, nihil numquam optio porro provident qui quibusdam quis quos repellat velit voluptate! Culpa ea modi natus possimus reprehenderit totam. Doloremque dolorum error excepturi exercitationem odio quam quasi quod ullam! Ad distinctio officiis perspiciatis rem sequi? Aliquid asperiores consequatur eveniet facere nihil optio quam, reiciendis vero. Adipisci expedita illum incidunt libero, maiores neque obcaecati perferendis praesentium quis? Assumenda deleniti ducimus ea illo iure maiores nulla placeat quam, qui rerum soluta totam voluptate? Accusantium aperiam asperiores at beatae, consectetur consequatur corporis deleniti dignissimos dolore ea eius ex exercitationem harum hic ipsa iusto laboriosam laudantium magnam maiores modi molestiae non officiis qui ratione reiciendis veritatis voluptate voluptates? Alias aliquid animi corporis maxime nam numquam odit recusandae suscipit unde! Dolores eligendi laboriosam veniam? Adipisci deleniti deserunt doloribus enim eos minus molestiae necessitatibus sapiente. Autem exercitationem minus modi quam rem. Aliquam aspernatur atque earum illum impedit libero neque omnis placeat quos rem? A accusamus commodi eum ipsam maxime molestias officiis, voluptate! A accusamus cupiditate dignissimos doloribus est eum incidunt ipsum labore molestias nam neque non numquam odit officiis praesentium quae quas quasi quidem quo quod, sed tempora voluptates voluptatum! Ab aliquid amet architecto beatae commodi, consequuntur, culpa debitis doloremque ducimus eaque eligendi harum incidunt ipsam ipsum itaque iusto labore magnam mollitia nam numquam optio quaerat quam quod recusandae sit velit vero. Aperiam asperiores beatae deleniti dignissimos doloremque eius eligendi enim error et explicabo id illo impedit in incidunt, ipsam iste maxime minus molestias nam nihil odio optio quae quasi quia quidem quo, repellat repellendus reprehenderit sed similique sunt ut veniam voluptatum! Ab consectetur expedita itaque molestias quis. At deleniti dolor doloremque esse, facilis id ipsa magni, natus nobis nulla odio praesentium quae vero. Ab aliquam animi aspernatur assumenda doloremque ducimus esse, facilis hic in libero, nam natus pariatur quam quibusdam reprehenderit ut vero! Dicta impedit incidunt laudantium magni neque quae repellat tempore tenetur! At consectetur eius eos incidunt iusto quasi quod suscipit totam voluptate voluptatibus. Aliquam eveniet nam nemo nostrum reprehenderit? A accusantium ad aliquid dicta est fugiat ipsum labore laboriosam nemo non obcaecati, omnis perferendis provident quae, quis rem reprehenderit velit veniam? Ad aliquid earum esse expedita harum, illum incidunt labore libero molestiae molestias natus necessitatibus nesciunt officiis optio placeat quis sint tempore veritatis, voluptas voluptatum! Alias aperiam assumenda dolore dolorem earum expedita fugit ipsam itaque modi omnis porro quo ratione, suscipit, ullam unde vel voluptas! Assumenda at dolores eligendi esse et exercitationem, fugit. Amet animi aut consequatur deleniti perspiciatis? Doloremque fugit nihil quo recusandae voluptatum? Animi architecto atque autem consequuntur dicta doloremque excepturi facilis ipsam ipsum iusto laboriosam laudantium nam odio quibusdam similique ullam vel vitae voluptate, voluptatibus voluptatum! Id, suscipit?</div>
+    <div id="main-content">
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
 
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
 
+            <div class="container-artigos">
 
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+
+        <div class="header-encomenda">
+            <div class="botoes-encomenda">
+                <button class="botao botao-encomenda">+</button>
+                <input type="checkbox" class="checkbox-encomenda">
+            </div>
+
+            <div class="informacao-encomenda">
+                <div class="informacao-imp">
+                    <div class="nome-cliente">Cliente A</div>
+                    <div class="num-encomenda-interna">Nº Enc. Int: 123456789</div>
+                    <div class="num-encomenda-externa">Nº Enc. Ext: 987654321</div>
+                    <div class="data-inserido">Data Entrada Encomenda: 21/04/2020</div>
+                    <div class="data-entrega">Data Entrega: 24/04/2020</div>
+                </div>
+                <div class="informacao-opcional">
+                    <span class="num-artigos">20/50 Artigos Expedidos</span>
+                    <span class="percentagem-completa">40% Finalizado</span>
+                    <span class="barra-prog-exterior"><span class="barra-prog-interior">__________</span>______________</span>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+            </div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>

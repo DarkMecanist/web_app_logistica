@@ -67,11 +67,92 @@ a:hover {
     transition: 0.5s;
 }
 
+button:focus {
+    outline: 0;
+}
+
 /*MAIN-CONTENT*/
 
 #main-content {
     color: #424242;
     height: 100%;
-    margin-left: 150px;
-    padding: 10px 10px 10px 0;
+    margin-left: 140px;
+    padding: 5px 10px 10px 0;
 }
+
+.header-encomenda {
+    background-color: #424242;
+    color: #FAFAFA;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.botoes-encomenda, .informacao-encomenda{
+    display: inline-block;
+}
+
+.botoes-encomenda{
+    margin-left: 10px;
+}
+
+.botao-encomenda {
+    font-size: 1.1em;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.checkbox-encomenda {
+    background-color: #FAFAFA;
+    width: 25px;
+    height: 25px;
+    margin: 1px;
+}
+
+.informacao-encomenda {
+    margin-left: 10px;
+}
+
+.nome-cliente {
+    display: inline-block;
+    font-size: 1.2em;
+    border-left: 2px solid #FAFAFA;
+    border-bottom: 2px solid #FAFAFA;
+    padding: 5px 15px 5px 5px;
+    margin: 5px 0;
+}
+
+.num-encomenda-interna, .num-encomenda-externa, .data-inserido, .data-entrega{
+    display: inline-block;
+    font-size: 0.9em;
+    border-top: 2px solid #FAFAFA;
+    border-bottom: 2px solid #FAFAFA;
+    padding: 5px;
+    margin-left: 60px;
+}
+
+.num-artigos{
+    margin-left: 170px;
+}
+
+.percentagem-completa {
+    margin-left: 80px;
+}
+
+.barra-prog-exterior {
+    display: inline;
+    background-color: #FAFAFA;
+    width: 100px;
+    font-size: 1em;
+    margin-left: 160px;
+    border-radius: 1px;
+    padding: 0;
+}
+
+.barra-prog-interior {
+    background-color: yellowgreen;
+    color: yellowgreen;
+    padding: 0;
+    margin: 0;
+}
+
