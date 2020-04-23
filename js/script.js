@@ -11,6 +11,10 @@ function expandir_encomenda() {
 
 }
 
+function editar_valor() {
+    this.innerHTML = 'novo valor';
+}
+
 var lista_botoes_encomenda = document.querySelectorAll(".botao-encomenda");
 
 for (let i = 0; i < lista_botoes_encomenda.length; i++) {

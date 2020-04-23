@@ -144,9 +144,17 @@ button:focus {
     margin-left: 65px;
 }
 
+.botao-notas {
+    display: inline-block;
+    margin-left: 70px;
+    width: 40px;
+    height: 20px;
+    font-size: 0.55em;
+}
+
 .botao-abrir-pdf {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 20px;
     height: 20px;
     font-size: 0.55em;
 }
@@ -157,5 +165,33 @@ button:focus {
 
 .container-artigos {
     background-color: #FAFAFA;
+    padding: 5px;
 }
+
+.artigo{
+    color: #424242;
+    border-bottom: 1px solid #424242;
+    border-radius: 2px;
+    font-size: 0.65em;
+    padding-top: 8px;
+}
+
+.artigo:hover {
+    color: #FAFAFA;
+    background-color: cornflowerblue;
+}
+
+.informacao-artigo {
+    display: inline-block;
+    border-right: 2px solid #424242;
+    padding-right: 5px;
+}
+
+.botao-ficha-tecnica-artigo {
+    display: inline-block;
+    color: #FAFAFA;
+    background-color: #424242;
+    height: 20px;
+}
+
 
