@@ -117,6 +117,7 @@ button:focus {
 .nome-cliente {
     display: inline-block;
     font-size: 1.1em;
+    width: 525px;
     border-left: 2px solid #FAFAFA;
     border-bottom: 2px solid #FAFAFA;
     padding: 5px 15px 5px 5px;
@@ -130,6 +131,18 @@ button:focus {
     border-bottom: 2px solid #FAFAFA;
     padding: 5px;
     margin-left: 20px;
+}
+
+.num-encomenda-interna {
+    width: 106px;
+}
+
+.num-encomenda-alt {
+    width: 151px;
+}
+
+.data-entrega {
+    width: 178px;
 }
 
 .data-inserido, .num-artigos, .percentagem-completa {
