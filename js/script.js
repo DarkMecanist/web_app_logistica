@@ -8,7 +8,11 @@ function expandir_encomenda() {
     var container_artigos = this.parentElement.nextElementSibling.nextElementSibling;
 
     container_artigos.style.cssText = "height: 200px";
+}
 
+function apagar_elemento() {
+    let element_to_delete = document.querySelector('#main-content')
+    element_to_delete.remove();
 }
 
 function editar_valor() {
