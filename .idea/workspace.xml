@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/web_app_log/order_organizer/tasks.py" line="238" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf2001c9-afe3-4e19-8ddb-bbaaa8b9660b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WEB_APP_LOGÍSTICA$backend_scripts.coverage" NAME="backend_scripts Coverage Results" MODIFIED="1591045935708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_log/order_organizer" />
+    <SUITE FILE_PATH="coverage/WEB_APP_LOGÍSTICA$python_scripts__1_.coverage" NAME="python_scripts (1) Coverage Results" MODIFIED="1589125263696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_log/order_organizer" />
+    <SUITE FILE_PATH="coverage/WEB_APP_LOGÍSTICA$python_scripts.coverage" NAME="python_scripts Coverage Results" MODIFIED="1589124331312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer" />
+    <SUITE FILE_PATH="coverage/WEB_APP_LOGÍSTICA$views.coverage" NAME="views Coverage Results" MODIFIED="1592349073297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_log/order_organizer" />
+    <SUITE FILE_PATH="coverage/WEB_APP_LOGÍSTICA$test.coverage" NAME="test Coverage Results" MODIFIED="1600124404207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_log/order_organizer" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1423028529">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="132" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="14" />
+          <entry key="project.open.time.10" value="12" />
+          <entry key="project.open.time.11" value="19" />
+          <entry key="project.open.time.12" value="7" />
+          <entry key="project.open.time.13" value="20" />
+          <entry key="project.open.time.14" value="8" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="6" />
+          <entry key="project.open.time.17" value="5" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="134" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Procfile" value="1" />
+          <entry key="css" value="36" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="190" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="149" />
+          <entry key="py" value="348" />
+          <entry key="pyi" value="2" />
+          <entry key="ts" value="5" />
+          <entry key="txt" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="36" />
+          <entry key="HTML" value="190" />
+          <entry key="Image" value="4" />
+          <entry key="JavaScript" value="149" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="348" />
+          <entry key="PythonStub" value="2" />
+          <entry key="TypeScript" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Procfile" value="38" />
+          <entry key="css" value="5666" />
+          <entry key="html" value="12601" />
+          <entry key="js" value="38623" />
+          <entry key="py" value="48327" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="5666" />
+          <entry key="HTML" value="12608" />
+          <entry key="JavaScript" value="38616" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Python" value="48327" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WEB APP LOGÍSTICA" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/user_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_app_log/web_app_log/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="189" column="49" selection-start-line="189" selection-start-column="49" selection-end-line="189" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#579#853#0" />
+                <element signature="e#617#834#0" />
+                <element signature="e#905#2679#0" />
+                <element signature="e#1381#1430#0" />
+                <element signature="e#2252#2271#0" />
+                <element signature="e#2323#2600#0" />
+                <element signature="e#2723#3009#0" />
+                <element signature="e#2849#2987#0" />
+                <element signature="e#3056#3615#0" />
+                <element signature="e#3089#3207#0" />
+                <element signature="e#3226#3615#0" />
+                <element signature="e#3652#5750#0" />
+                <element signature="e#4571#4593#0" />
+                <element signature="e#5806#6044#0" />
+                <element signature="e#6089#6335#0" />
+                <element signature="e#6217#6311#0" />
+                <element signature="e#6374#6486#0" />
+                <element signature="e#6412#6486#0" />
+                <element signature="e#6522#6562#0" />
+                <element signature="e#7810#9714#0" />
+                <element signature="e#7839#8765#0" />
+                <element signature="e#7895#7973#0" />
+                <element signature="e#8049#8506#0" />
+                <element signature="e#8207#8475#0" />
+                <element signature="e#8279#8475#0" />
+                <element signature="e#8527#8765#0" />
+                <element signature="e#8528#8740#0" />
+                <element signature="e#8805#9520#0" />
+                <element signature="e#8871#9268#0" />
+                <element signature="e#9029#9237#0" />
+                <element signature="e#9101#9237#0" />
+                <element signature="e#9289#9520#0" />
+                <element signature="e#9290#9495#0" />
+                <element signature="e#9763#10259#0" />
+                <element signature="e#9801#10117#0" />
+                <element signature="e#9833#10009#0" />
+                <element signature="e#9937#10009#0" />
+                <element signature="e#10036#10117#0" />
+                <element signature="e#10138#10235#0" />
+                <element signature="e#11253#11630#0" />
+                <element signature="e#11979#12175#0" />
+                <element signature="e#12025#12113#0" />
+                <element signature="e#12531#17525#0" />
+                <element signature="e#12569#12917#0" />
+                <element signature="e#12604#12917#0" />
+                <element signature="e#12969#13559#0" />
+                <element signature="e#13004#13559#0" />
+                <element signature="e#13614#13932#0" />
+                <element signature="e#13756#13932#0" />
+                <element signature="e#13789#13932#0" />
+                <element signature="e#14124#14269#0" />
+                <element signature="e#14309#17166#0" />
+                <element signature="e#15660#16860#0" />
+                <element signature="e#16590#16683#0" />
+                <element signature="e#17610#21469#0" />
+                <element signature="e#17648#17914#0" />
+                <element signature="e#17683#17914#0" />
+                <element signature="e#17966#18414#0" />
+                <element signature="e#18001#18414#0" />
+                <element signature="e#18606#18751#0" />
+                <element signature="e#18797#21063#0" />
+                <element signature="e#19865#20736#0" />
+                <element signature="e#21546#25356#0" />
+                <element signature="e#21584#21889#0" />
+                <element signature="e#21619#21889#0" />
+                <element signature="e#21941#22460#0" />
+                <element signature="e#21976#22460#0" />
+                <element signature="e#22652#24966#0" />
+                <element signature="e#24069#24879#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="143" column="65" lean-forward="true" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#1080#10733#0" />
+                <element signature="e#10860#12086#0" />
+                <marker date="1604251006155" expanded="true" signature="1075:10736" ph="..." />
+                <marker date="1604251006155" expanded="true" signature="12110:12171" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>botao-atu</find>
+      <find>hover</find>
+      <find>.mo</find>
+      <find>.botao-fec</find>
+      <find>.nome-cl</find>
+      <find>botao-ap</find>
+      <find>botao-im</find>
+      <find>botao-apagar-ex</find>
+      <find>botao-imprimir-listagem-artigos</find>
+      <find>botao-apagar-artigo</find>
+      <find>botao-impri</find>
+      <find>botao-apagar-ar</find>
+      <find>conteudo-modal-a</find>
+      <find>close_modal</find>
+      <find>display_modal</find>
+      <find>botao</find>
+      <find>gather</find>
+      <find>displa</find>
+      <find>check</find>
+      <find>open</find>
+      <find>global</find>
+      <find>glo</find>
+      <find>g</find>
+      <find>botao:hover</find>
+      <find>Download</find>
+      <find>request</find>
+      <find>ajax-loader</find>
+      <find>inner</find>
+      <find>innerText</find>
+      <find>reset</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web_app_log" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/home.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/parts_page.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/admin.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/login_scripts.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/user_logout.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/signals.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/__init__.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/python_scripts.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/python_scripts.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/forms.css" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_order_scripts.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.975/Leitor_PDF_EPROD_ENCOM.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.072/Leitor_PDF_EPROD_ENCOM.py" />
+        <option value="$PROJECT_DIR$/PDFS/PDFS PARA ANÁLISE/name.txt" />
+        <option value="$PROJECT_DIR$/web_app_log/.gitignore" />
+        <option value="$PROJECT_DIR$/web_app_log/Procfile" />
+        <option value="$PROJECT_DIR$/web_app_log/static/order_organizer/update_order_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/manage.py" />
+        <option value="$PROJECT_DIR$/web_app_log/web_app_log/urls.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/backend_scripts.py" />
+        <option value="$PROJECT_DIR$/web_app_log/requirements.txt" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_part_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/static/order_organizer/main.css" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_shipping.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/create_order.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/urls.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/create_shipping.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/ajax-utils.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_shipping_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/test.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/create_part_stock.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/update_part_stock.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_part_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_order_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/update_order.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/update_shipping.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_order_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_shipping_script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/forms.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/orders_page.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/user_login.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/shippings_page.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/stocks_page.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/base.html" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/main.css" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/script.js" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/views.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/tasks.py" />
+        <option value="$PROJECT_DIR$/web_app_log/order_organizer/models.py" />
+        <option value="$PROJECT_DIR$/web_app_log/web_app_log/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-8" />
+    <option name="width" value="2425" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WEB APP LOGÍSTICA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB APP LOGÍSTICA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="_log&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer\static\order_organizer" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\static\order_organizer" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\staticfiles" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer\templates\order_organizer" />
+      <recent name="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer\static\order_organizer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="backend_scripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB APP LOGÍSTICA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app_log/order_organizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_app_log/order_organizer/backend_scripts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python_scripts (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB APP LOGÍSTICA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app_log/order_organizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer\static\order_organizer\python_scripts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python_scripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB APP LOGÍSTICA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PROJETOS\PROJETOS PYTHON\Projetos Trabalho\WEB APP LOGÍSTICA\web_app_log\order_organizer\static\order_organizer\python_scripts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB APP LOGÍSTICA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app_log/order_organizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_app_log/order_organizer/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB APP LOGÍSTICA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app_log/order_organizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_app_log/order_organizer/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="WEB APP LOGÍSTICA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Pc\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="656" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python_scripts" />
+      <item itemvalue="Python.python_scripts (1)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.backend_scripts" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.backend_scripts" />
+        <item itemvalue="Python.python_scripts (1)" />
+        <item itemvalue="Python.python_scripts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf2001c9-afe3-4e19-8ddb-bbaaa8b9660b" name="Default Changelist" comment="" />
+      <created>1588631008216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588631008216</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49261084" visible="true" weight="0.21908316" />
+      <window_info id="Structure" order="1" sideWeight="0.5073892" side_tool="true" weight="0.17750533" />
+      <window_info id="Favorites" order="2" sideWeight="0.5019763" side_tool="true" weight="0.14072494" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41323212" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.26898047" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.48652482" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" visible="true" weight="0.34815618" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49261084" weight="0.17430703" />
+      <window_info id="Structure" order="1" sideWeight="0.5073892" side_tool="true" weight="0.17750533" />
+      <window_info id="Favorites" order="2" sideWeight="0.5019763" side_tool="true" weight="0.14072494" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41323212" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.26898047" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.48652482" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" visible="true" weight="0.27440348" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_order_script.js</url>
+          <line>427</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_order_script.js</url>
+          <line>806</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_shipping_script.js</url>
+          <line>358</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/script.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/docx/enum/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/_ODIMG1.jpg" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/background_task/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/background_task/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/background_task/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="131" column="6" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/static/order_organizer/create_order_script.js" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="5378" column="4" selection-start-line="5378" selection-start-column="4" selection-end-line="5378" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/static/order_organizer/main.css" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3203">
+          <caret line="637" column="4" selection-start-line="637" selection-start-column="4" selection-end-line="637" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/web_app_log/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/views/generic/edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="169" column="8" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_part_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/create_shipping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/orders_page_backup.html" />
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/ajax-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/python_scripts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/create_part_stock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/update_part_stock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_part_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_shipping_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/create_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/create_order_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4505">
+          <caret line="265" column="13" selection-start-line="249" selection-start-column="12" selection-end-line="265" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/update_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="138" column="34" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/update_shipping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_shipping_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/update_order_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+          <folding>
+            <element signature="e#206#1138#0" />
+            <element signature="e#826#878#0" />
+            <element signature="e#931#992#0" />
+            <element signature="e#1055#1126#0" />
+            <element signature="e#1175#1278#0" />
+            <element signature="e#1325#1545#0" />
+            <element signature="e#1449#1535#0" />
+            <element signature="e#1582#1679#0" />
+            <element signature="e#1726#2148#0" />
+            <element signature="e#1887#2138#0" />
+            <element signature="e#2025#2124#0" />
+            <element signature="e#2190#2263#0" />
+            <element signature="e#2315#2580#0" />
+            <element signature="e#2467#2570#0" />
+            <element signature="e#2643#3228#0" />
+            <element signature="e#2707#3217#0" />
+            <element signature="e#2764#3203#0" />
+            <element signature="e#2941#3185#0" />
+            <element signature="e#3069#3163#0" />
+            <element signature="e#3267#4934#0" />
+            <element signature="e#4983#5102#0" />
+            <element signature="e#5386#5640#0" />
+            <element signature="e#5533#5630#0" />
+            <element signature="e#5679#7362#0" />
+            <element signature="e#5843#7321#0" />
+            <element signature="e#5956#7021#0" />
+            <element signature="e#6026#6107#0" />
+            <element signature="e#6160#6240#0" />
+            <element signature="e#6291#6369#0" />
+            <element signature="e#6436#6530#0" />
+            <element signature="e#6594#6685#0" />
+            <element signature="e#6750#6866#0" />
+            <element signature="e#6921#7003#0" />
+            <element signature="e#7151#7306#0" />
+            <element signature="e#7435#7760#0" />
+            <element signature="e#7567#7717#0" />
+            <element signature="e#7824#8687#0" />
+            <element signature="e#7931#8632#0" />
+            <element signature="e#8697#8730#0" />
+            <element signature="e#13736#19491#0" />
+            <element signature="e#14127#14180#0" />
+            <element signature="e#14339#14394#0" />
+            <element signature="e#14463#14524#0" />
+            <element signature="e#14867#14933#0" />
+            <element signature="e#14979#15047#0" />
+            <element signature="e#15103#15281#0" />
+            <element signature="e#15188#15267#0" />
+            <element signature="e#15287#15364#0" />
+            <element signature="e#15408#15825#0" />
+            <element signature="e#15470#15533#0" />
+            <element signature="e#15539#15811#0" />
+            <element signature="e#15860#16183#0" />
+            <element signature="e#16222#16276#0" />
+            <element signature="e#16739#17028#0" />
+            <element signature="e#16788#16923#0" />
+            <element signature="e#16929#17014#0" />
+            <element signature="e#17086#17378#0" />
+            <element signature="e#17136#17272#0" />
+            <element signature="e#17278#17364#0" />
+            <element signature="e#17436#17750#0" />
+            <element signature="e#17508#17644#0" />
+            <element signature="e#17650#17736#0" />
+            <element signature="e#17816#18151#0" />
+            <element signature="e#17895#18038#0" />
+            <element signature="e#18044#18137#0" />
+            <element signature="e#18207#18508#0" />
+            <element signature="e#18266#18402#0" />
+            <element signature="e#18408#18494#0" />
+            <element signature="e#18701#18964#0" />
+            <element signature="e#18889#18949#0" />
+            <element signature="e#18970#19481#0" />
+            <element signature="e#19005#19412#0" />
+            <element signature="e#19543#20203#0" />
+            <element signature="e#19837#19881#0" />
+            <element signature="e#19939#19983#0" />
+            <element signature="e#20045#20089#0" />
+            <element signature="e#20125#20169#0" />
+            <element signature="e#20259#21991#0" />
+            <element signature="e#20370#20473#0" />
+            <element signature="e#20479#20580#0" />
+            <element signature="e#20628#20733#0" />
+            <element signature="e#20738#20841#0" />
+            <element signature="e#20894#21004#0" />
+            <element signature="e#21009#21117#0" />
+            <element signature="e#21176#21292#0" />
+            <element signature="e#21297#21411#0" />
+            <element signature="e#21475#21596#0" />
+            <element signature="e#21601#21720#0" />
+            <element signature="e#21768#21873#0" />
+            <element signature="e#21878#21981#0" />
+            <element signature="e#22035#22363#0" />
+            <element signature="e#22139#22351#0" />
+            <element signature="e#22266#22337#0" />
+            <element signature="e#22407#22938#0" />
+            <element signature="e#22655#22761#0" />
+            <element signature="e#22826#22928#0" />
+            <element signature="e#22980#24490#0" />
+            <element signature="e#23129#24480#0" />
+            <element signature="e#23242#23850#0" />
+            <element signature="e#23432#23831#0" />
+            <element signature="e#23575#23809#0" />
+            <element signature="e#23856#24466#0" />
+            <element signature="e#24045#24447#0" />
+            <element signature="e#24188#24425#0" />
+            <element signature="e#25111#25245#0" />
+            <element signature="e#25190#25235#0" />
+            <element signature="e#25907#26865#0" />
+            <element signature="e#25967#26851#0" />
+            <element signature="e#26612#26832#0" />
+            <element signature="e#27646#30165#0" />
+            <element signature="e#27796#29193#0" />
+            <element signature="e#28007#28069#0" />
+            <element signature="e#28075#28214#0" />
+            <element signature="e#29335#29588#0" />
+            <element signature="e#30214#30344#0" />
+            <element signature="e#30250#30308#0" />
+            <element signature="e#30388#31309#0" />
+            <element signature="e#30676#31214#0" />
+            <element signature="e#30804#31200#0" />
+            <element signature="e#30875#31182#0" />
+            <element signature="e#31347#32044#0" />
+            <element signature="e#31489#31756#0" />
+            <element signature="e#31666#31742#0" />
+            <element signature="e#31762#32034#0" />
+            <element signature="e#31943#32020#0" />
+            <element signature="e#32094#35427#0" />
+            <element signature="e#32659#34136#0" />
+            <element signature="e#32708#34122#0" />
+            <element signature="e#33204#33362#0" />
+            <element signature="e#33368#34037#0" />
+            <element signature="e#33638#33658#0" />
+            <element signature="e#34287#35330#0" />
+            <element signature="e#34359#35024#0" />
+            <element signature="e#35336#35417#0" />
+            <element signature="e#35536#36409#0" />
+            <element signature="e#35671#35794#0" />
+            <element signature="e#35800#35925#0" />
+            <element signature="e#35972#36093#0" />
+            <element signature="e#36099#36222#0" />
+            <element signature="e#36306#36349#0" />
+            <element signature="e#36355#36399#0" />
+            <element signature="e#36463#36598#0" />
+            <element signature="e#36519#36588#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/user_logout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/signals.py" />
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/test.py" />
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/backend_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#113#677#0" />
+            <element signature="e#722#875#0" />
+            <element signature="e#925#1533#0" />
+            <element signature="e#1574#1624#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/stocks_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/core/files/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="361" column="27" selection-start-line="361" selection-start-column="27" selection-end-line="361" selection-end-column="27" />
+          <folding>
+            <element signature="e#1181#1266#0" />
+            <element signature="e#1328#1854#0" />
+            <element signature="e#1979#2155#0" />
+            <element signature="e#2222#2493#0" />
+            <element signature="e#2560#4013#0" />
+            <element signature="e#4066#4418#0" />
+            <element signature="e#4454#4767#0" />
+            <element signature="e#4960#5124#0" />
+            <element signature="e#5162#5423#0" />
+            <element signature="e#5462#5715#0" />
+            <element signature="e#5751#5926#0" />
+            <element signature="e#5961#6171#0" />
+            <element signature="e#6220#6481#0" />
+            <element signature="e#6529#6784#0" />
+            <element signature="e#6833#7094#0" />
+            <element signature="e#7550#7802#0" />
+            <element signature="e#7871#8374#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/fields/files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="222" column="8" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/utils/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="102" column="44" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="750" selection-start-line="750" selection-end-line="750" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="e#97#203#0" />
+            <element signature="e#354#424#0" />
+            <element signature="e#459#819#0" />
+            <element signature="e#558#610#0" />
+            <element signature="e#661#713#0" />
+            <element signature="e#760#808#0" />
+            <element signature="e#865#2823#0" />
+            <element signature="e#983#1666#0" />
+            <element signature="e#1699#2355#0" />
+            <element signature="e#2384#2813#0" />
+            <element signature="e#2866#2935#0" />
+            <element signature="e#3013#3059#0" />
+            <element signature="e#3105#3577#0" />
+            <element signature="e#3149#3355#0" />
+            <element signature="e#3361#3566#0" />
+            <element signature="e#3633#4274#0" />
+            <element signature="e#3919#4027#0" />
+            <element signature="e#4041#4093#0" />
+            <element signature="e#4342#4786#0" />
+            <element signature="e#4818#5356#0" />
+            <element signature="e#5032#5346#0" />
+            <element signature="e#5407#5575#0" />
+            <element signature="e#5520#5565#0" />
+            <element signature="e#5637#5656#0" />
+            <element signature="e#5938#6197#0" />
+            <element signature="e#6203#6462#0" />
+            <element signature="e#6650#7431#0" />
+            <element signature="e#6953#7044#0" />
+            <element signature="e#7050#7417#0" />
+            <element signature="e#7564#7834#0" />
+            <element signature="e#7616#7713#0" />
+            <element signature="e#7719#7816#0" />
+            <element signature="e#8045#9017#0" />
+            <element signature="e#8604#8689#0" />
+            <element signature="e#8741#8826#0" />
+            <element signature="e#8832#8917#0" />
+            <element signature="e#9205#10677#0" />
+            <element signature="e#9291#10663#0" />
+            <element signature="e#9378#10645#0" />
+            <element signature="e#9480#10623#0" />
+            <element signature="e#9648#10597#0" />
+            <element signature="e#9718#10566#0" />
+            <element signature="e#9818#9947#0" />
+            <element signature="e#10009#10142#0" />
+            <element signature="e#10214#10370#0" />
+            <element signature="e#10376#10532#0" />
+            <element signature="e#10755#10902#0" />
+            <element signature="e#10972#11318#0" />
+            <element signature="e#11011#11104#0" />
+            <element signature="e#11136#11198#0" />
+            <element signature="e#11204#11308#0" />
+            <element signature="e#11375#11566#0" />
+            <element signature="e#11621#11991#0" />
+            <element signature="e#11754#11981#0" />
+            <element signature="e#11827#11966#0" />
+            <element signature="e#12001#12042#0" />
+            <element signature="e#13077#13565#0" />
+            <element signature="e#13217#13357#0" />
+            <element signature="e#13616#13841#0" />
+            <element signature="e#13738#13831#0" />
+            <element signature="e#13884#14683#0" />
+            <element signature="e#14218#14330#0" />
+            <element signature="e#14394#14502#0" />
+            <element signature="e#14565#14673#0" />
+            <element signature="e#14743#15014#0" />
+            <element signature="e#14845#15002#0" />
+            <element signature="e#15065#15306#0" />
+            <element signature="e#15207#15296#0" />
+            <element signature="e#15359#15787#0" />
+            <element signature="e#15524#15738#0" />
+            <element signature="e#15569#15724#0" />
+            <element signature="e#15842#16723#0" />
+            <element signature="e#16000#16099#0" />
+            <element signature="e#16779#17564#0" />
+            <element signature="e#16883#17031#0" />
+            <element signature="e#17147#17298#0" />
+            <element signature="e#17401#17553#0" />
+            <element signature="e#17603#18292#0" />
+            <element signature="e#17737#18004#0" />
+            <element signature="e#17914#17990#0" />
+            <element signature="e#18010#18282#0" />
+            <element signature="e#18191#18268#0" />
+            <element signature="e#18341#18474#0" />
+            <element signature="e#18529#19324#0" />
+            <element signature="e#18686#18977#0" />
+            <element signature="e#18983#19314#0" />
+            <element signature="e#19067#19140#0" />
+            <element signature="e#19180#19291#0" />
+            <element signature="e#19380#20155#0" />
+            <element signature="e#19537#19808#0" />
+            <element signature="e#19814#20145#0" />
+            <element signature="e#19898#19971#0" />
+            <element signature="e#20011#20123#0" />
+            <element signature="e#20202#20369#0" />
+            <element signature="e#20419#20801#0" />
+            <element signature="e#20444#20652#0" />
+            <element signature="e#20870#21192#0" />
+            <element signature="e#20928#21080#0" />
+            <element signature="e#21086#21182#0" />
+            <element signature="e#21249#21541#0" />
+            <element signature="e#21417#21531#0" />
+            <element signature="e#21628#22609#0" />
+            <element signature="e#21761#22599#0" />
+            <element signature="e#22102#22193#0" />
+            <element signature="e#22199#22585#0" />
+            <element signature="e#22665#23112#0" />
+            <element signature="e#22837#23060#0" />
+            <element signature="e#22882#23046#0" />
+            <element signature="e#23170#24085#0" />
+            <element signature="e#23382#23459#0" />
+            <element signature="e#23465#24075#0" />
+            <element signature="e#23557#23658#0" />
+            <element signature="e#23705#23941#0" />
+            <element signature="e#23947#24061#0" />
+            <element signature="e#24145#24936#0" />
+            <element signature="e#24302#24581#0" />
+            <element signature="e#24587#24926#0" />
+            <element signature="e#24671#24744#0" />
+            <element signature="e#24784#24904#0" />
+            <element signature="e#25006#25295#0" />
+            <element signature="e#25108#25284#0" />
+            <element signature="e#25365#25559#0" />
+            <element signature="e#25476#25548#0" />
+            <element signature="e#25618#25898#0" />
+            <element signature="e#25732#25887#0" />
+            <element signature="e#25958#26602#0" />
+            <element signature="e#26328#26401#0" />
+            <element signature="e#26660#27049#0" />
+            <element signature="e#26793#27039#0" />
+            <element signature="e#26866#27024#0" />
+            <element signature="e#27131#27581#0" />
+            <element signature="e#27295#27571#0" />
+            <element signature="e#27353#27452#0" />
+            <element signature="e#27458#27557#0" />
+            <element signature="e#27633#28046#0" />
+            <element signature="e#27801#27998#0" />
+            <element signature="e#27846#27984#0" />
+            <element signature="e#29216#29498#0" />
+            <element signature="e#29315#29487#0" />
+            <element signature="e#29544#29708#0" />
+            <element signature="e#29764#30555#0" />
+            <element signature="e#30206#30545#0" />
+            <element signature="e#30290#30363#0" />
+            <element signature="e#30403#30523#0" />
+            <element signature="e#30604#30873#0" />
+            <element signature="e#30715#30862#0" />
+            <element signature="e#30947#31326#0" />
+            <element signature="e#31156#31234#0" />
+            <element signature="e#31240#31316#0" />
+            <element signature="e#31380#31670#0" />
+            <element signature="e#31498#31660#0" />
+            <element signature="e#31718#32146#0" />
+            <element signature="e#31947#32136#0" />
+            <element signature="e#32012#32122#0" />
+            <element signature="e#32201#32675#0" />
+            <element signature="e#32388#32515#0" />
+            <element signature="e#32440#32501#0" />
+            <element signature="e#32547#32590#0" />
+            <element signature="e#32596#32665#0" />
+            <element signature="e#32721#32886#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/shippings_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/orders_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/static/order_organizer/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="381" column="131" selection-start-line="381" selection-start-column="131" selection-end-line="381" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/templates/order_organizer/user_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="189" column="49" selection-start-line="189" selection-start-column="49" selection-end-line="189" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#579#853#0" />
+            <element signature="e#617#834#0" />
+            <element signature="e#905#2679#0" />
+            <element signature="e#1381#1430#0" />
+            <element signature="e#2252#2271#0" />
+            <element signature="e#2323#2600#0" />
+            <element signature="e#2723#3009#0" />
+            <element signature="e#2849#2987#0" />
+            <element signature="e#3056#3615#0" />
+            <element signature="e#3089#3207#0" />
+            <element signature="e#3226#3615#0" />
+            <element signature="e#3652#5750#0" />
+            <element signature="e#4571#4593#0" />
+            <element signature="e#5806#6044#0" />
+            <element signature="e#6089#6335#0" />
+            <element signature="e#6217#6311#0" />
+            <element signature="e#6374#6486#0" />
+            <element signature="e#6412#6486#0" />
+            <element signature="e#6522#6562#0" />
+            <element signature="e#7810#9714#0" />
+            <element signature="e#7839#8765#0" />
+            <element signature="e#7895#7973#0" />
+            <element signature="e#8049#8506#0" />
+            <element signature="e#8207#8475#0" />
+            <element signature="e#8279#8475#0" />
+            <element signature="e#8527#8765#0" />
+            <element signature="e#8528#8740#0" />
+            <element signature="e#8805#9520#0" />
+            <element signature="e#8871#9268#0" />
+            <element signature="e#9029#9237#0" />
+            <element signature="e#9101#9237#0" />
+            <element signature="e#9289#9520#0" />
+            <element signature="e#9290#9495#0" />
+            <element signature="e#9763#10259#0" />
+            <element signature="e#9801#10117#0" />
+            <element signature="e#9833#10009#0" />
+            <element signature="e#9937#10009#0" />
+            <element signature="e#10036#10117#0" />
+            <element signature="e#10138#10235#0" />
+            <element signature="e#11253#11630#0" />
+            <element signature="e#11979#12175#0" />
+            <element signature="e#12025#12113#0" />
+            <element signature="e#12531#17525#0" />
+            <element signature="e#12569#12917#0" />
+            <element signature="e#12604#12917#0" />
+            <element signature="e#12969#13559#0" />
+            <element signature="e#13004#13559#0" />
+            <element signature="e#13614#13932#0" />
+            <element signature="e#13756#13932#0" />
+            <element signature="e#13789#13932#0" />
+            <element signature="e#14124#14269#0" />
+            <element signature="e#14309#17166#0" />
+            <element signature="e#15660#16860#0" />
+            <element signature="e#16590#16683#0" />
+            <element signature="e#17610#21469#0" />
+            <element signature="e#17648#17914#0" />
+            <element signature="e#17683#17914#0" />
+            <element signature="e#17966#18414#0" />
+            <element signature="e#18001#18414#0" />
+            <element signature="e#18606#18751#0" />
+            <element signature="e#18797#21063#0" />
+            <element signature="e#19865#20736#0" />
+            <element signature="e#21546#25356#0" />
+            <element signature="e#21584#21889#0" />
+            <element signature="e#21619#21889#0" />
+            <element signature="e#21941#22460#0" />
+            <element signature="e#21976#22460#0" />
+            <element signature="e#22652#24966#0" />
+            <element signature="e#24069#24879#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="143" column="65" lean-forward="true" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1080#10733#0" />
+            <element signature="e#10860#12086#0" />
+            <marker date="1604251006155" expanded="true" signature="1075:10736" ph="..." />
+            <marker date="1604251006155" expanded="true" signature="12110:12171" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/order_organizer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app_log/web_app_log/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
