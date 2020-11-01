@@ -1,0 +1,51 @@
+{% extends "order_organizer/base.html" %}
+{% load static %}
+
+{% block nav-bar-buttons %}
+    <form method="GET" action="{% url 'create_part_stock' %}">
+        {% csrf_token %}
+        <button id="botao-novo-artigo" class="botao" type="submit">Novo Artigo</button>
+    </form>
+    <button id="botao-apagar-artigo" class="botao">Apagar Artigo</button>
+    <button id="botao-imprimir-listagem-artigos" class="botao">Imprimir Listagem</button>
+    <div id="num-orders-info"><div id="num-val">X</div>Artigos guardados</div>
+    <button id="demo-menu" class="botao">Menu Demo</button>
+{% endblock %}
+
+{% block main-content %}
+    <div class="header-artigo" id="header-artigo-stocks">
+        <button type="checkbox" id="checkbox-selecionar-todas-encomendas" name="not-selected"></button>
+        <div class="label-header-artigo header-artigo-armazem" id="header-armazem-stocks">Arm.</div>
+        <div class="label-header-artigo header-artigo-codigo" id="header-codigo-stocks">Código</div>
+        <div class="label-header-artigo header-artigo-nome" id="header-nome-stocks">Nome</div>
+
+        <div class="informacao-artigo header-artigo-botao-ficha-tecnica-artigo" id="header-ficha-tecnica-stocks">Detalhes</div>
+        <div class="label-header-artigo header-artigo-peso" id="header-peso-stocks">Peso unit.</div>
+        <div class="label-header-artigo header-artigo-material" id="header-material-stocks">Material</div>
+        <div class="label-header-artigo header-artigo-unidade-quantidade" id="header-unidade-stocks">Unid.</div>
+        <div class="label-header-artigo header-artigo-quantidade-stock" id="header-quantidade-stock-stocks">Qtd. stock</div>
+    </div>
+
+    <div id="container-artigos-stocks">
+        {% for part in parts %}
+        <div class="artigo" id="{{ part.id }}">
+            <input type="checkbox" class="checkbox checkbox-encomenda" name="is_selected" value="{{ part.id }}">
+            <div class="informacao-artigo armazem">{{part.storage}}</div>
+            <div class="informacao-artigo codigo">{{part.reference}}</div>
+            <div class="informacao-artigo nome">{{part.name}}</div>
+
+            <a href="{% url 'update_part_stock' part.id %}"><img src="/static/order_organizer/edit.png" alt="edit" id="imagem-editar-artigo"></a>
+            {% if part.technical_PDF != '' %}
+                <a class="informacao-artigo botao botao-ficha-tecnica-artigo" id="{{ part.technical_PDF }}" href="https://web-app-logistica-prilux.s3.us-east-2.amazonaws.com/{{ part.technical_PDF }}" target="_blank">Ficha Técnica</a>
+            {% else %}
+                <a class="informacao-artigo botao botao-ficha-tecnica-artigo">Ficha Técnica</a>
+            {% endif %}
+            <div class="informacao-artigo peso">{{part.weight}}</div>
+            <div class="informacao-artigo material">{{part.material}}</div>
+            <div class="informacao-artigo unidade-quantidade">{{part.stock_unit}}</div>
+            <div class="informacao-artigo quantidade-stock">{{part.stock_quantity}}</div>
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

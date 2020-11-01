@@ -1,0 +1,118 @@
+{% load crispy_forms_tags %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Logística Prilux - Encomendas</title>
+    <link rel="icon" href="{% static 'order_organizer/prilux.png' %}">
+    <link rel="stylesheet" href="{% static 'order_organizer/main.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav-bar-side" class="nav-bar">
+        <a href="{% url 'orders_page' %}"><img src="{% static 'order_organizer/prilux.png' %}" alt="Homepage" id="logo"></a>
+
+        <hr>
+            <small>{{ user.username }}</small>
+            <small><a href="{% url 'logout' %}" id="terminar-sessao">Terminar Sessão</a></small>
+
+
+        <hr>
+
+        <a href="{% url 'orders_page' %}" class="botao-menu" id="botao-menu-encomendas">Encomendas</a>
+        <a href="{% url 'shippings_page' %}" class="botao-menu" id="botao-menu-expedicoes">Expedições</a>
+        <a href="{% url 'stocks_page' %}" class="botao-menu" id="botao-menu-stocks">Stocks</a>
+
+        <hr>
+
+        {% block nav-bar-buttons %}{% endblock %}
+
+        <hr>
+    </nav>
+
+    <div id="main-content">
+        {% block main-content %}{% endblock %}
+    </div>
+
+    <div id="modal-selecionar-ficheiro" class="modal">
+        <div id="conteudo-modal-selecionar-ficheiro" class="conteudo-modal">
+            <h3>Selecionar PDF</h3>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="file" name="file-name">
+                <button type="submit" name="upload-file">OK</button>
+            </form>
+            <button class="botao botao-fechar-modal">Fechar</button>
+        </div>
+    </div>
+
+    <div id="modal-confirmar-apagar" class="modal">
+        <div id="conteudo-modal-confirmar-apagar" class="conteudo-modal">
+            <h3>Isto irá apagar permanentemente as encomendas selecionadas!</h3>
+            <div class="conteudo-botoes">
+                <button id="botao-cancelar-apagar" class="botao botao-fechar-modal" >Cancelar</button>
+                <form method="GET" name="delete_selected_orders">
+                    {% csrf_token %}
+                    <button id="botao-confirmar-apagar" class="botao" type="submit" form="is_selected_form" >Continuar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-confirmar-apagar-expedicao" class="modal">
+        <div id="conteudo-modal-confirmar-apagar-expedicoes" class="conteudo-modal">
+            <h3>Isto irá apagar permanentemente as expedições selecionadas!</h3>
+            <div class="conteudo-botoes">
+                <button id="botao-cancelar-apagar-expedicao" class="botao botao-fechar-modal" >Cancelar</button>
+                <button id="botao-confirmar-apagar-expedicao" class="botao">Continuar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-confirmar-apagar-artigos" class="modal">
+        <div id="conteudo-modal-confirmar-apagar-artigos" class="conteudo-modal">
+            <h3>Isto irá apagar permanentemente os artigos selecionados!</h3>
+            <div class="conteudo-botoes">
+                <button id="botao-cancelar-apagar-artigo" class="botao botao-fechar-modal" >Cancelar</button>
+                <button id="botao-confirmar-apagar-artigo" class="botao">Continuar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-url-etiquetas" class="modal">
+        <div id="conteudo-modal-url-etiquetas" class="conteudo-modal">
+            <h3 id="info-status-etiquetas">Aguarde...<p>Esta operação poderá levar alguns minutos</p></h3>
+            <div id="status-etiquetas"><img src="{% static 'order_organizer/ajax-loader.gif' %}"></div>
+            <button class="botao botao-fechar-modal">Fechar</button>
+        </div>
+    </div>
+
+    <div id="modal-menu-demo" class="modal">
+        <div id="conteudo-modal-info-demo" class="conteudo-modal">
+            <p><a href="http://www.google.pt/" target="_blank" id="src-code">( Source Code - Github )</a></p>
+            <button id="botao-reset-db" class="botao botao-fechar-modal">Reset Base Dados</button>
+            <a id="botao-download-pdfs" class="botao botao-fechar-modal" href="https://web-app-logistica-prilux.s3.us-east-2.amazonaws.com/encomendas_exemplo/Encomendas Exemplo.rar">Download PFDs Encs.</a>
+            <button class="botao botao-fechar-modal">Fechar</button>
+        </div>
+    </div>
+
+    <div id="modal-confirmar-reset-db" class="modal">
+        <div id="conteudo-confirmar-reset-db" class="conteudo-modal">
+            <h3>Isto irá reverter a base de dados para o seu estado inicial!</h3>
+            <div class="conteudo-botoes">
+                <button id="botao-cancelar-reset-db" class="botao botao-fechar-modal" >Cancelar</button>
+                <button id="botao-confirmar-reset-db" class="botao">Continuar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="{% static 'order_organizer/ajax-utils.js' %}"></script>
+    <script src="{% static 'order_organizer/script.js' %}"></script>
+</body>
+</html>

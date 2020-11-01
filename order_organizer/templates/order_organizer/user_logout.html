@@ -1,0 +1,22 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Logística Prilux - Login</title>
+    <link rel="icon" href="{% static 'order_organizer/prilux.png' %}">
+    <link rel="stylesheet" href="{% static 'order_organizer/main.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container-info-logout">
+        <h2>Sessão terminada com sucesso</h2>
+        <a href="{% url 'login' %}">Ir para página de Login</a>
+    </div>
+</body>
+
+

@@ -1,0 +1,67 @@
+{% load crispy_forms_tags %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Logística Prilux - Novo Artigo</title>
+    <link rel="icon" href="{% static 'order_organizer/prilux.png' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'order_organizer/main.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content-create-part">
+        <form method="POST" name="part-info" id="part-info">
+            {% csrf_token %}
+            <h3>Novo Artigo</h3>
+            <hr class="create-new-part">
+
+            <div class="form-line-create-new-model" id="form-line-storage">
+                <span>Armazém*:</span>
+                <span id="input-area-storage">{{ form.storage }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-reference">
+                <span>Código*:</span>
+                <span id="input-area-reference">{{ form.reference }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-name">
+                <span>Nome*:</span>
+                <span id="input-area-name">{{ form.name }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-stock-quantity">
+                <span>Quantidade Stock*:</span>
+                <span id="input-area-stock-quantity">{{ form.stock_quantity }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-stock-unit">
+                <span>Unid. (<a class="select_unit_stock">UN.</a> / <a class="select_unit_stock">MT.</a> / <a class="select_unit_stock">KG.</a>)*:</span>
+                <span id="input-area-stock-unit">{{ form.stock_unit }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-material">
+                <span>Material:</span>
+                <span id="input-area-material">{{ form.material }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-weight">
+                <span>Peso (kg):</span>
+                <span id="input-area-weight">{{ form.weight }}</span>
+            </div>
+            <div class="form-line-create-new-model" id="form-line-technical-PDF-file">
+                <span>PDF Ficha Técnica:</span>
+                <span id="input-area-technical-PDF">{{ form.technical_PDF }}</span>
+            </div>
+        </form>
+
+        <hr class="create-new-order">
+        <button class="botao" id="botao-criar-novo-artigo" type="submit" name="create_new_part">Criar Novo Artigo</button>
+        <a class="botao" id="botao-regressar-pagina-artigos" href="{% url 'stocks_page' %}">Voltar à Página Artigos</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="{% static 'order_organizer/ajax-utils.js' %}"></script>
+    <script src="{% static 'order_organizer/create_part_script.js' %}"></script>
+</body>
+

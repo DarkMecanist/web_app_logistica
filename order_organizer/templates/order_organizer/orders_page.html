@@ -1,0 +1,105 @@
+{% extends "order_organizer/base.html" %}
+
+{% block nav-bar-buttons %}
+    <form method="GET" action="{% url 'create_order' %}">
+        {% csrf_token %}
+        <button id="botao-nova-encomenda" class="botao" type="submit">Nova Encomenda</button>
+    </form>
+    <button id="botao-nova-encomenda-PDF" class="botao">Nova Encomenda PDF</button>
+    <button id="botao-apagar-encomenda" class="botao">Apagar Encomendas</button>
+
+    <button id="botao-imprimir-etiquetas" class="botao">Gerar DOC Etiquetas</button>
+    <button id="botao-imprimir-listagem-encomendas" class="botao">Gerar DOC Listagem</button>
+    <div id="num-orders-info"><div id="num-val">X</div>Encomendas em curso</div>
+    <button id="demo-menu" class="botao">Menu Demo</button>
+
+{% endblock %}
+
+
+{% block main-content %}
+    <div id="header-encomendas">
+    <button type="checkbox" id="checkbox-selecionar-todas-encomendas" name="not-selected"></button>
+    <form method="POST">
+    {% csrf_token %}
+        <div id="label-selecionar-todas-encomendas" class="label-header-encomendas">Selecionar todas as Encomendas</div>
+        <button type="radio" class="radiobutton" id="radio-ordenar-cliente" name="ordenar" value="cliente"></button>
+        <div id="label-ordenar-cliente" class="label-header-encomendas">Ordenar por cliente</div>
+        <button type="radio" class="radiobutton" id="radio-ordenar-data-entrega" name="ordenar" value="data-entrega"></button>
+        <div id="label-ordenar-data-entrega" class="label-header-encomendas">Ordenar por data de entrega</div>
+        <button type="radio" class="radiobutton" id="radio-ordenar-data-introducao" name="ordenar" value="data-introdução"></button>
+        <div id="label-ordenar-data-introducao" class="label-header-encomendas">Ordenar por data de introdução</div>
+    </form>
+</div>
+
+    {% for order in orders %}
+        <div class="encomenda" id="{{ order.pk }}">
+            <div class="informacao-destaque-encomenda">
+                <input type="checkbox" class="checkbox checkbox-encomenda" name="is_selected" value="{{order.id}}">
+                <div class="nome-cliente valor-campo-encomenda">{{order.client}}</div>
+                <div class="data-entrega" data-tooltip="" data-tooltip-position="bottom">Data Entrega: <span class="valor-campo-encomenda">{{order.due_date|date:'d-m-Y'}}</span></div>
+                {% if order.doc_type == 'EPROD' %}
+                    <div class="num-encomenda-alt">ENCOM Assoc:<span class="valor-campo-encomenda">{{order.order_num_associated_doc}}</span></div>
+                    <div class="num-encomenda-interna">EPROD:<span class="valor-campo-encomenda">{{order.order_num_doc}}</span></div>
+                {% else %}
+                    <div class="num-encomenda-alt">EPROD Assoc:<span class="valor-campo-encomenda">{{order.order_num_associated_doc}}</span></div>
+                    <div class="num-encomenda-interna">ENCOM:<span class="valor-campo-encomenda">{{order.order_num_doc}}</span></div>
+                {% endif %}
+            </div>
+
+            <div class="informacao-adicional-encomenda">
+                <a class="botao botao-encomenda">+</a>
+                <span class="data-inserido">Data Entrada Encomenda:<span>{{order.date_inserted|date:'d-m-Y'}}</span></span>
+                <span class="num-artigos">{{order.num_completed_parts}}/{{order.num_total_parts}} Artigos Expedidos</span>
+                <a class="botao botao-abrir-encomenda" href="{% url 'update_order' order.id %}">Abrir Pág. Encomenda</a>
+                {% if order.pdf_file_path != '' %}
+                    <a class="botao botao-abrir-pdf" id="{{ order.pdf_file_path }}" href="https://web-app-logistica-prilux.s3.us-east-2.amazonaws.com/{{ order.pdf_file_path }}" target="_blank">Abrir PDF Origem</a>
+                {% else %}
+                    <a class="botao botao-abrir-pdf">Abrir PDF Origem</a>
+                {% endif %}
+
+                <a class="botao botao-notas">Notas</a>
+                <span class="percentagem-completa">{{order.percent_completed}}% Finalizado</span>
+                <div class="modal">
+                    <div class="conteudo-modal">
+                        <h3>Notas:</h3>
+                        <p>{{ order.notes }}</p>
+                        <button class="botao botao-fechar-modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+                <div class="header-artigo">
+                    <div class="label-header-artigo header-artigo-armazem">Arm.</div>
+                    <div class="label-header-artigo header-artigo-codigo">Código</div>
+                    <div class="label-header-artigo header-artigo-nome">Nome</div>
+
+                    <div class="label-header-artigo header-artigo-botao-ficha-tecnica-artigo">Consultar detalhes</div>
+                    <div class="label-header-artigo header-artigo-material">Material</div>
+                    <div class="label-header-artigo header-artigo-unidade-quantidade">Unid.</div>
+                    <div class="label-header-artigo header-artigo-quantidade-stock">Qtd. stock</div>
+                    <div class="label-header-artigo header-artigo-quantidade-a-expedir">Qtd. pronta</div>
+                    <div class="label-header-artigo header-artigo-quantidade-encomenda">Qtd. pend.</div>
+                </div>
+
+                {% for part in order.parts_list %}
+                <div class="artigo">
+                    <div class="informacao-artigo armazem">{{part.0}}</div>
+                    <div class="informacao-artigo codigo">{{part.1}}</div>
+                    <div class="informacao-artigo nome">{{part.2}}</div>
+
+                    <button class="informacao-artigo botao botao-ficha-tecnica-artigo">Ficha Técnica</button>
+                    <div class="informacao-artigo material">{{part.7}}</div>
+                    <div class="informacao-artigo unidade-quantidade">{{part.6}}</div>
+                    <div class="informacao-artigo quantidade-stock">{{part.5}}</div>
+                    <div class="informacao-artigo quantidade-a-expedir">{{part.4}}</div>
+                    <div class="informacao-artigo quantidade-encomenda">{{part.3}}</div>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+
+
+{% endblock %}

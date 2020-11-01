@@ -1,0 +1,84 @@
+{% extends "order_organizer/base.html" %}
+{% load static %}
+
+{% block nav-bar-buttons %}
+    <form method="GET" action="{% url 'create_shipping' %}">
+        <button id="botao-nova-expedicao" class="botao" type="submit">Nova Expedição</button>
+    </form>
+    <button id="botao-apagar-expedicao" class="botao">Apagar Expedição</button>
+    <button id="botao-imprimir-listagem-expedicoes" class="botao">Imprimir Listagem</button>
+    <div id="num-orders-info"><div id="num-val">X</div>Expedições guardadas</div>
+    <button id="demo-menu" class="botao">Menu Demo</button>
+{% endblock %}
+
+
+{% block main-content %}
+    <div id="header-encomendas">
+        <button type="checkbox" id="checkbox-selecionar-todas-encomendas" name="not-selected"></button>
+        <form method="POST">
+        {% csrf_token %}
+            <div id="label-selecionar-todas-encomendas" class="label-header-encomendas">Selecionar todas as Encomendas</div>
+            <button type="radio" class="radiobutton" id="radio-ordenar-cliente" name="ordenar" value="cliente"></button>
+            <div id="label-ordenar-cliente" class="label-header-encomendas">Ordenar por cliente</div>
+            <button type="radio" class="radiobutton" id="radio-ordenar-data-introducao" name="ordenar" value="data-introdução"></button>
+            <div id="label-ordenar-data-introducao" class="label-header-encomendas">Ordenar por data de introdução</div>
+        </form>
+    </div>
+
+    {% for shipping in shippings %}
+        <div class="encomenda" id="{{ shipping.pk }}">
+            <div class="informacao-destaque-encomenda">
+                <input type="checkbox" class="checkbox checkbox-encomenda" name="is_selected" value="{{shipping.id}}">
+                <div class="nome-cliente valor-campo-encomenda">{{shipping.client}}</div>
+                <div class="num-encomenda-alt">Enc Assoc:<span class="valor-campo-encomenda">{{shipping.associated_doc_type}}: {{shipping.order_num_associated_doc}}</span></div>
+                <div class="num-encomenda-interna">{{shipping.doc_type}}:<span class="valor-campo-encomenda">{{shipping.num_doc}}</span></div>
+            </div>
+
+            <div class="informacao-adicional-encomenda">
+                <a class="botao botao-encomenda">+</a>
+                <span class="data-inserido">Data Entrada Encomenda:<span>{{shipping.date_inserted|date:'d-m-Y'}}</span></span>
+                <span class="num-artigos">{{shipping.num_total_parts}} Artigos Expedidos</span>
+
+                <a class="botao botao-abrir-encomenda" href="{% url 'update_shipping' shipping.id %}">Abrir Pág. Expedição</a>
+                <a class="botao botao-notas">Notas</a>
+                <span class="peso-total">Peso: {{shipping.total_weight}}</span>
+                <span class="info-veiculo">Veículo: {{shipping.vehicle_info}}</span>
+                <div class="modal">
+                    <div class="conteudo-modal">
+                        <h3>Notas:</h3>
+                        <p>{{ shipping.notes }}</p>
+                        <button class="botao botao-fechar-modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-artigos">
+
+                <div class="header-artigo">
+                    <div class="label-header-artigo header-artigo-armazem">Arm.</div>
+                    <div class="label-header-artigo header-artigo-codigo">Código</div>
+                    <div class="label-header-artigo header-artigo-nome">Nome</div>
+
+                    <div class="label-header-artigo header-artigo-botao-ficha-tecnica-artigo">Consultar detalhes</div>
+                    <div class="label-header-artigo header-artigo-unidade-quantidade">Unid.</div>
+                    <div class="label-header-artigo header-artigo-quantidade-a-expedir">Qtd. expedida</div>
+                </div>
+
+                {% for part in shipping.parts_list %}
+                <div class="artigo">
+                    <div class="informacao-artigo armazem">{{part.0}}</div>
+                    <div class="informacao-artigo codigo">{{part.1}}</div>
+                    <div class="informacao-artigo nome">{{part.2}}</div>
+
+                    <button class="informacao-artigo botao botao-ficha-tecnica-artigo">Ficha Técnica</button>
+                    <div class="informacao-artigo unidade-quantidade">{{part.4}}</div>
+                    <div class="informacao-artigo quantidade-a-expedir">{{part.3}}</div>
+
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+
+
+{% endblock %}
