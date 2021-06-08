@@ -26,7 +26,7 @@ nibabel==3.1.0
 numpy==1.18.4
 packaging==20.4
 pandas==1.0.4
-Pillow==7.1.2
+Pillow==8.2.0
 psycopg2==2.8.5
 pydot==1.4.1
 PyMuPDF==1.17.0
